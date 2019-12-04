@@ -15,7 +15,7 @@ class NavButs extends React.Component {
             <Button variant="primary" id="button1" className="font-effect-3d-float" size="lg" block="true" href="/view-jobs">
               View Jobs
             </Button>
-            <br></br><br></br>
+            <br></br>
             <Button variant="secondary" id="button2" className="font-effect-3d-float" size="lg" block="true" href="/create-jobs">
               Enter New Job
             </Button>

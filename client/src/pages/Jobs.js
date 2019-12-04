@@ -70,47 +70,47 @@ function Jobs() {
               <Input
                 onChange={handleInputChange}
                 name="time"
-                placeholder="time..."
+                placeholder="Time..."
               />
               <Input
                 onChange={handleInputChange}
                 name="name"
-                placeholder="name..."
+                placeholder="Name..."
               />
               <Input
                 onChange={handleInputChange}
                 name="plumber"
-                placeholder="plumber..."
+                placeholder="Plumber..."
               />
               <Input
                 onChange={handleInputChange}
                 name="helper"
-                placeholder="helper..."
+                placeholder="Helper..."
               />
               <Input
                 onChange={handleInputChange}
                 name="address"
-                placeholder="address..."
+                placeholder="Address..."
               />
                <Input
                 onChange={handleInputChange}
                 name="duration"
-                placeholder="duration..."
+                placeholder="Duration..."
               />
                <Input
                 onChange={handleInputChange}
                 name="materials"
-                placeholder="materials..."
+                placeholder="Materials..."
               />
               <TextArea
                 onChange={handleInputChange}
                 name="description"
-                placeholder="description (Optional)"
+                placeholder="Description of work to be done..."
               />
                <Input
                 onChange={handleInputChange}
                 name="cost"
-                placeholder="cost..."
+                placeholder="Cost to Customer..."
               />
               <FormBtn
                 disabled={!(formObject.date && formObject.name)}
