@@ -4,6 +4,8 @@ const Schema = mongoose.Schema;
 const jobSchema = new Schema({
   date: { type: String, required: true },
   time: { type: String, required: true },
+  name: { type: String, required: true },
+  plumber: { type: String, required: true },
   helper: String,
   address: { type: Date, default: Date.now },
   duration: { type: String, required: true },

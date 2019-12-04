@@ -1,7 +1,7 @@
 I. user arrives on landing page with 
     A. title in center,
-        1. use front end builder
-        2. use logo
+        1. job button
+        2. invoice button
     B. button to navigate to form to create job entry,
         1. COMPONENT 1: Job Entry Form --> store info w/ MySql
             a. date & time of job

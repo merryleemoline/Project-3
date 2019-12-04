@@ -2,7 +2,7 @@
   "name": "mern",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001/",
+  "proxy": "http://localhost:3002/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
@@ -13,10 +13,12 @@
     "bootstrap": "^4.4.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "mdbreact": "^4.23.0",
     "mongoose": "^5.7.13",
     "nodemon": "^2.0.1",
     "react": "16.11.0",
     "react-bootstrap": "^1.0.0-beta.16",
+    "react-card-flip": "^1.0.10",
     "react-dom": "16.11.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^2.1.1"

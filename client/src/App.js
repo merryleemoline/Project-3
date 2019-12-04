@@ -1,16 +1,23 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import LandingPage from "./pages/LandingPage/LandingPage";
+import ViewJobEntry from "./pages/Details";
+import JobForm from "./components/JobEntry/JobForm";
+import WelcomeScreen from "./components/WelcomeScreen";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-          <LandingPage />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <Router>
+      <React.Fragment>
+        <WelcomeScreen />
+        <Switch>
+          <Route exact path="/" component={WelcomeScreen} />
+          <Route exact path="/jobs/:id" component={ViewJobEntry} />
+          <Route exact path="/view-jobs" component={ViewJobEntry} />
+          <Route exact path="/create-jobs" component={JobForm} />
+        </Switch>
+      </React.Fragment>
+    </Router>
+  );
 }
 
 export default App;
