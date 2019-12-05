@@ -1,0 +1,18 @@
+#button1, #button2 {
+    color: #0FABF8 !important;
+    background-color: white;
+    font-size: 24px;
+    border-color: white;
+    font-family: 'Numans', sans-serif;
+    border-radius: 35%;
+    height: 90px;
+    width: 150px;
+   
+}
+#button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+

@@ -1,0 +1,42 @@
+I. user arrives on landing page with 
+    A. title in center,
+    B. button to navigate to form to create job entry,
+        1. COMPONENT 1: Job Entry Form --> store info w/ MySql
+            a. date & time of job
+            b. name of customer
+            c. address of customer
+                -google maps API
+            d. description of job
+                -materials needed
+                -est. time to completed
+                -employees listed
+            e. estimated customer cost
+            d. submit button to store info in mongo db
+    C. button to navigate to form to create invoice, & send to customer
+        1. COMPONENT 2: Customer Invoice Form --> store info w/ mongo
+            a. input fields for each material + cost
+            b. input fields for labor + cost
+                -modal to calculate assistant pay 
+                    i. assistant pay form
+                        -input total hours assistant worked
+                        -input pay/hr ($)
+                        -submit button
+                        -display total assistant pay
+                        -button to add result to Customer Invoice Form
+                -modal to calculate head plumber commission 
+                    i. commission form
+                    -(diff percentage if generated job himself)
+                        -input total hours plumber worked
+                        -drop down input to see if plumber brought in job himself (y/n)
+                        -button to calculate total plumber commission
+                        -button to add result to Customer Invoice Form
+            c. summary of work done
+            d. date & time it took to complete job
+            e. total cost to complete job
+            f. submit button to store info in Mongo db
+        2. Button to create invoice from form inputs
+            a. build w/ html
+            b. convert to pdf
+   
+
+
